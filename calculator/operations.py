@@ -17,7 +17,7 @@ def format_result(data):
 
 
 def add(a, b):
-    return a + b
+    return format_result(a + b)
 
 
 def sub(a, b):
