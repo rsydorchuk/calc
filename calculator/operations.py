@@ -28,8 +28,5 @@ def mul(a, b):
 
 
 def div(a, b):
-    """Return a divided by b. Developer D owns this function."""
-    if b == 0:
-        raise ValueError("Cannot divide by zero.")
-    
+    """Return a divided by b. Developer D owns this function."""    
     return a / b
