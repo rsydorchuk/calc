@@ -13,7 +13,8 @@ That's part of the exercise.
 """
 
 def format_result(data):
-    return f"The result is: {data}"
+    return f" Your result is: {data}"
+
 
 
 def add(a, b):
@@ -26,7 +27,7 @@ def sub(a, b):
 
 
 def mul(a, b):
-    return f"Your result is: {a * b}"
+    return format_result(a * b)
 
 
 def div(a, b):
