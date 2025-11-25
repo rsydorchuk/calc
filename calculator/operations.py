@@ -24,13 +24,12 @@ def sub(a, b):
 
 
 def mul(a, b):
-    """Return the product of a and b. Developer C owns this function."""
-    pass
+    return a * b
 
 
 def div(a, b):
     """Return a divided by b. Developer D owns this function."""
     if b == 0:
-        raise ValueError("Cannot divide by zero.")
+        raise ZeroDivisionError("Cannot divide by zero.")
     
     return a / b
