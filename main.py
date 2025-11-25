@@ -46,7 +46,7 @@ def main():
                 symbol = "/"
 
             print(f"\nOperation: {operation.upper()}")
-            print(f"Calculation: {a} {symbol} {b} = {result}\n")
+            print(f"Calculation is: {result}\n")
 
         except ZeroDivisionError:
             print("Error: Division by zero is not allowed.\n")
