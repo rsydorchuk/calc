@@ -13,7 +13,7 @@ That's part of the exercise.
 """
 
 def format_result(data):
-    return f"Result: {data}"
+    return f"Result = {data}"
 
 
 def add(a, b):
