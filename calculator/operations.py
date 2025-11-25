@@ -31,4 +31,4 @@ def mul(a, b):
 
 def div(a, b):
     """Return a divided by b. Developer D owns this function."""    
-    return a / b
+    return format_result(a / b)
