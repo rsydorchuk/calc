@@ -26,7 +26,7 @@ def sub(a, b):
 
 
 def mul(a, b):
-    return a * b
+    return f"Your result is: {a * b}"
 
 
 def div(a, b):
